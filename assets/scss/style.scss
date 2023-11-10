@@ -1,0 +1,77 @@
+// =========================================
+//            GENERALS / RESETS
+// =========================================
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FDB827;
+    padding-top: 40px;
+    font-family: sans-serif;
+    font-size: 2rem;
+
+    h1
+    {
+        color: #21209C;
+        font-size: 3rem;
+        margin-bottom: 24px;
+    }
+
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+        width: 100vw;
+        
+
+        img 
+        {
+            border: 2px solid #f1f1f177;
+            border-style: outset;
+            border-width: 20px;
+            margin: 24px;
+            box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.326);
+        }
+        
+        div
+        {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 10vh;
+            padding-bottom: 32px;
+            border-bottom: 2px solid black;
+
+            button
+            {
+                height: 40px;
+                width: 200px;
+                align-items: center;
+                border: 0px;
+                border-radius: 4px;
+                box-shadow: 0px 0px 5px 0px black;
+                color: #F1F1F1;
+                transition: all 0.1s linear;
+                background-color: #21209C;
+                font-size: 1.125rem;
+
+                &:hover
+                {
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
