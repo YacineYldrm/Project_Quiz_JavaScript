@@ -66,8 +66,11 @@ let data= [
             answer:"Pacific Ocean"
           }
 ];
-
+const mainHeader = document.createElement('h1');
 const quizContainer = document.createElement('section');
+
+mainHeader.textContent = "Quiz";
+document.body.append(mainHeader);
 
 // ===============================================
 //   create quiz elements + display quiz gallery
