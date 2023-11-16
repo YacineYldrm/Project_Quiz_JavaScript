@@ -70,7 +70,7 @@ const mainHeader = document.createElement('h1');
 const quizContainer = document.createElement('section');
 
 mainHeader.textContent = "Quiz";
-document.body.append(mainHeader);
+document.body.appendChild(mainHeader);
 
 // ===============================================
 //   create quiz elements + display quiz gallery
@@ -139,12 +139,7 @@ const checkAnswer = () =>
             }
           });
           
-          // check if answer is correct
-          if (button.textContent === answer)
-          {
-            button.style.backgroundColor = "green";
-          }
-          else
+          if (button.textContent !== answer)
           {
             button.style.backgroundColor = "red";
           }
