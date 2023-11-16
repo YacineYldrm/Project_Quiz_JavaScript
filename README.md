@@ -29,11 +29,11 @@ The quiz application automatically loads a series of questions along with corres
 
 ## GitHub Live Preview
 
-(Provide a link to the live preview of the quiz on GitHub Pages if applicable)
+https://yacineyldrm.github.io/Project_Quiz_JavaScript/
 
 ## GitHub Repository
 
-(Include a link to the GitHub repository for the quiz project)
+https://github.com/YacineYldrm/Project_Quiz_JavaScript
 
 ## Flowchart
 
